@@ -7,5 +7,4 @@ services:
     startCommand: "node index.js"
     envVars:
       - key: PORT
-        fromDatabase: false
         value: "10000" # Render provides a $PORT automatically; you can leave it empty
